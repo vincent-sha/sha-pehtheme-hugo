@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 文森的科技博客</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on 文森的科技博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 14 Nov 2025 22:11:36 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo静态网站快速入门指南</title>
+      <link>http://localhost:1313/posts/2025/hugo-quick-start-guide/</link>
+      <pubDate>Fri, 14 Nov 2025 22:11:36 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2025/hugo-quick-start-guide/</guid>
+      <description>&lt;h1 id=&#34;hugo-快速入门指南mac平台&#34;&gt;Hugo 快速入门指南（Mac平台）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 是一个流行的静态网站生成器，能够帮助用户快速创建高性能的网站。本文将引导你在几分钟内搭建一个 Hugo 网站。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装-homebrew&#34;&gt;安装 Homebrew&lt;/h3&gt;&#xA;&lt;p&gt;打开 Terminal（终端），输入以下命令：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/bash -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;验证 Homebrew 安装成功&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;输出类似：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

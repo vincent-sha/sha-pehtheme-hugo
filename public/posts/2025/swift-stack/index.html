@@ -147,14 +147,14 @@
 <li><strong>VStack</strong>：用于将视图垂直排列。</li>
 <li><strong>ZStack</strong>：用于将视图相互叠放，实现深度层次。</li>
 </ul>
-<p>默认情况下，stack 视图会将内容居中对齐，并在子视图之间加入间隔。结合 <code>Spacer</code> 和 <code>Divider</code>，可以创建高度灵活的布局。</p>
-<p><img src="http://developer.apple.com/cn/documentation/swiftui/building-layouts-with-stack-views/Building%20Layouts%20with%20Stack%20Views%20_%20Apple%20Developer%20Documentation_files/Building-Layouts-with-Stack-Views-1@2x.png" alt="Stack 视图示意图"></p>
+<p>默认情况下,stack 视图会将内容居中对齐,并在子视图之间加入间隔。结合 <code>Spacer</code> 和 <code>Divider</code>,可以创建高度灵活的布局。</p>
+<p><img src="https://docs-assets.developer.apple.com/published/ce0ca452c3bcccf11149a8728f1c489f/6075/Building-Layouts-with-Stack-Views-1@2x.png" alt="Stack 视图示意图"></p>
 <hr>
 <h3 id="规划布局层次结构">规划布局层次结构</h3>
-<p>构建复杂布局时，应将设计拆分成多个小的 stack 视图组合。以下示例展示了如何使用三种 stack 视图创建个人资料页：</p>
-<p><img src="http://developer.apple.com/cn/documentation/swiftui/building-layouts-with-stack-views/Building%20Layouts%20with%20Stack%20Views%20_%20Apple%20Developer%20Documentation_files/Building-Layouts-with-Stack-Views-2@2x.png" alt="个人资料布局示意图"></p>
+<p>构建复杂布局时,应将设计拆分成多个小的 stack 视图组合。以下示例展示了如何使用三种 stack 视图创建个人资料页：</p>
+<p><img src="https://docs-assets.developer.apple.com/published/a5b7b41f3a40302214f2f18543eaaadf/6075/Building-Layouts-with-Stack-Views-2@2x.png" alt="个人资料布局示意图"></p>
 <ul>
-<li><code>ZStack</code> 用作底层容器，包含个人头像 <code>Image</code>。</li>
+<li><code>ZStack</code> 用作底层容器,包含个人头像 <code>Image</code>。</li>
 <li>头像上方叠加一个半透明的 <code>HStack</code>。</li>
 <li><code>HStack</code> 内部包含一个左对齐的 <code>VStack</code>，显示两行文本。</li>
 <li><code>Spacer</code> 用于将文本推向左侧边缘。</li>
@@ -185,13 +185,13 @@
 </span></span></code></pre></div><hr>
 <h3 id="利用-alignment-和-spacer-定位视图">利用 Alignment 和 Spacer 定位视图</h3>
 <ul>
-<li><code>alignment</code> 属性控制 stack 内部子视图的对齐方式。<code>VStack</code> 使用水平对齐 (<code>leading</code>、<code>center</code>、<code>trailing</code>)，<code>HStack</code> 使用垂直对齐。</li>
-<li><code>Spacer</code> 视图会在主轴方向上扩展，填充剩余空间，从而推动其他视图靠边排列。</li>
+<li><code>alignment</code> 属性控制 stack 内部子视图的对齐方式。<code>VStack</code> 使用水平对齐 (<code>leading</code>、<code>center</code>、<code>trailing</code>),<code>HStack</code> 使用垂直对齐。</li>
+<li><code>Spacer</code> 视图会在主轴方向上扩展,填充剩余空间,从而推动其他视图靠边排列。</li>
 </ul>
-<p><img src="http://developer.apple.com/cn/documentation/swiftui/building-layouts-with-stack-views/Building%20Layouts%20with%20Stack%20Views%20_%20Apple%20Developer%20Documentation_files/Building-Layouts-with-Stack-Views-3@2x.png" alt="对齐示意图"></p>
-<p><img src="http://developer.apple.com/cn/documentation/swiftui/building-layouts-with-stack-views/Building%20Layouts%20with%20Stack%20Views%20_%20Apple%20Developer%20Documentation_files/Building-Layouts-with-Stack-Views-4@2x.png" alt="Spacer 使用示意图"></p>
+<p><img src="https://docs-assets.developer.apple.com/published/d3ad16aec1948970076cc098e438be1f/6075/Building-Layouts-with-Stack-Views-3@2x.png" alt="对齐示意图"></p>
+<p><img src="https://docs-assets.developer.apple.com/published/189fa436f07ed0011bd0c1abeb167723/6075/Building-Layouts-with-Stack-Views-4@2x.png" alt="Spacer 使用示意图"></p>
 <ul>
-<li><code>Divider</code> 用于在子视图间插入一条线，但不会扩展填充空间。</li>
+<li><code>Divider</code> 用于在子视图间插入一条线,但不会扩展填充空间。</li>
 </ul>
 <hr>
 <h3 id="创建自适应布局避免固定尺寸">创建自适应布局，避免固定尺寸</h3>
@@ -308,8 +308,16 @@
 		<h2 class="font-bold text-xl mb-8">Recent Post</h2>
 
 		<article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/2025/hugo-quick-start-guide/"></a>
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/hugo-cover-001_hu_ff276b75f483844d.jpg" alt="Hugo静态网站快速入门指南" width="250" height="141">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-bold group-hover:underline decoration-auto">Hugo静态网站快速入门指南</h3>
+	</div>
+</article><article class="relative group flex flex-row">
 	<a class="insert-link" href="http://localhost:1313/posts/2025/swift-stack/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/swift-cover-001_hu_6506714a32d4eaf9.jpg" alt="使用 Stack 视图构建布局" width="250" height="250">
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/swift-cover-001_hu_cd71ef05c29b6ade.jpg" alt="使用 Stack 视图构建布局" width="250" height="141">
 
 	</figure>
 	<div class="basis-2/3 self-center ml-4">
@@ -317,7 +325,7 @@
 	</div>
 </article><article class="relative group flex flex-row">
 	<a class="insert-link" href="http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nadine-shaabana-ZPP-zP8HYG0-unsplash_hu_9990f01fc4745028.jpg" alt="Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness" width="250" height="250">
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nadine-shaabana-ZPP-zP8HYG0-unsplash_hu_787254f2be593ecf.jpg" alt="Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness" width="250" height="141">
 
 	</figure>
 	<div class="basis-2/3 self-center ml-4">
@@ -325,7 +333,7 @@
 	</div>
 </article><article class="relative group flex flex-row">
 	<a class="insert-link" href="http://localhost:1313/posts/2023/galactic-marvels/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nasa-rTZW4f02zY8-unsplash_hu_e9beda4c10d0fa56.jpg" alt="Galactic Marvels: The Most Spectacular Nebulas in the Cosmos" width="250" height="250">
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nasa-rTZW4f02zY8-unsplash_hu_852f34c56a8ae542.jpg" alt="Galactic Marvels: The Most Spectacular Nebulas in the Cosmos" width="250" height="141">
 
 	</figure>
 	<div class="basis-2/3 self-center ml-4">
@@ -333,19 +341,11 @@
 	</div>
 </article><article class="relative group flex flex-row">
 	<a class="insert-link" href="http://localhost:1313/posts/2023/stellar-spectacles/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/lionel-hesry-UNd3lRKhwSw-unsplash_hu_2963a093147eaf65.jpg" alt="Stellar Spectacles: The Wonders of Supernova Explosions" width="250" height="250">
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/lionel-hesry-UNd3lRKhwSw-unsplash_hu_db76029ae80127b2.jpg" alt="Stellar Spectacles: The Wonders of Supernova Explosions" width="250" height="141">
 
 	</figure>
 	<div class="basis-2/3 self-center ml-4">
 		<h3 class="font-bold group-hover:underline decoration-auto">Stellar Spectacles: The Wonders of Supernova Explosions</h3>
-	</div>
-</article><article class="relative group flex flex-row">
-	<a class="insert-link" href="http://localhost:1313/posts/2023/space-explorations-next-frontier/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/daniele-colucci-OtXJhYjbKeg-unsplash_hu_80af46dca1175f28.jpg" alt="Space Exploration&#39;s Next Frontier: The Race to Reach Mars" width="250" height="250">
-
-	</figure>
-	<div class="basis-2/3 self-center ml-4">
-		<h3 class="font-bold group-hover:underline decoration-auto">Space Exploration&#39;s Next Frontier: The Race to Reach Mars</h3>
 	</div>
 </article>
 		

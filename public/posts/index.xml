@@ -6,14 +6,21 @@
     <description>Recent content in Posts on 文森的科技博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Nov 2025 22:11:36 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 22:11:36 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo静态网站快速入门指南</title>
+      <link>http://localhost:1313/posts/2025/hugo-quick-start-guide/</link>
+      <pubDate>Fri, 14 Nov 2025 22:11:36 +0700</pubDate>
+      <guid>http://localhost:1313/posts/2025/hugo-quick-start-guide/</guid>
+      <description>&lt;h1 id=&#34;hugo-快速入门指南mac平台&#34;&gt;Hugo 快速入门指南（Mac平台）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 是一个流行的静态网站生成器，能够帮助用户快速创建高性能的网站。本文将引导你在几分钟内搭建一个 Hugo 网站。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装-homebrew&#34;&gt;安装 Homebrew&lt;/h3&gt;&#xA;&lt;p&gt;打开 Terminal（终端），输入以下命令：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/bin/bash -c &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;验证 Homebrew 安装成功&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew --version&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;输出类似：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用 Stack 视图构建布局</title>
       <link>http://localhost:1313/posts/2025/swift-stack/</link>
       <pubDate>Tue, 04 Nov 2025 22:11:36 +0700</pubDate>
       <guid>http://localhost:1313/posts/2025/swift-stack/</guid>
-      <description>&lt;h2 id=&#34;使用-stack-视图构建布局&#34;&gt;使用 Stack 视图构建布局&lt;/h2&gt;&#xA;&lt;p&gt;通过 SwiftUI 中原生的容器视图，可以轻松构建复杂且灵活的界面布局。&lt;/p&gt;&#xA;&lt;h3 id=&#34;三种-stack-视图简介&#34;&gt;三种 Stack 视图简介&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;HStack&lt;/strong&gt;：用于将视图水平排列。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;VStack&lt;/strong&gt;：用于将视图垂直排列。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ZStack&lt;/strong&gt;：用于将视图相互叠放，实现深度层次。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;默认情况下，stack 视图会将内容居中对齐，并在子视图之间加入间隔。结合 &lt;code&gt;Spacer&lt;/code&gt; 和 &lt;code&gt;Divider&lt;/code&gt;，可以创建高度灵活的布局。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://developer.apple.com/cn/documentation/swiftui/building-layouts-with-stack-views/Building%20Layouts%20with%20Stack%20Views%20_%20Apple%20Developer%20Documentation_files/Building-Layouts-with-Stack-Views-1@2x.png&#34; alt=&#34;Stack 视图示意图&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;规划布局层次结构&#34;&gt;规划布局层次结构&lt;/h3&gt;&#xA;&lt;p&gt;构建复杂布局时，应将设计拆分成多个小的 stack 视图组合。以下示例展示了如何使用三种 stack 视图创建个人资料页：&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;使用-stack-视图构建布局&#34;&gt;使用 Stack 视图构建布局&lt;/h2&gt;&#xA;&lt;p&gt;通过 SwiftUI 中原生的容器视图，可以轻松构建复杂且灵活的界面布局。&lt;/p&gt;&#xA;&lt;h3 id=&#34;三种-stack-视图简介&#34;&gt;三种 Stack 视图简介&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;HStack&lt;/strong&gt;：用于将视图水平排列。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;VStack&lt;/strong&gt;：用于将视图垂直排列。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ZStack&lt;/strong&gt;：用于将视图相互叠放，实现深度层次。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;默认情况下,stack 视图会将内容居中对齐,并在子视图之间加入间隔。结合 &lt;code&gt;Spacer&lt;/code&gt; 和 &lt;code&gt;Divider&lt;/code&gt;,可以创建高度灵活的布局。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://docs-assets.developer.apple.com/published/ce0ca452c3bcccf11149a8728f1c489f/6075/Building-Layouts-with-Stack-Views-1@2x.png&#34; alt=&#34;Stack 视图示意图&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;规划布局层次结构&#34;&gt;规划布局层次结构&lt;/h3&gt;&#xA;&lt;p&gt;构建复杂布局时,应将设计拆分成多个小的 stack 视图组合。以下示例展示了如何使用三种 stack 视图创建个人资料页：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</title>
