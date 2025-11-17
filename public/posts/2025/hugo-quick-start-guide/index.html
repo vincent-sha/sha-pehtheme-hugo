@@ -265,9 +265,14 @@
 </blockquote>
 <p>如果您只是想临时预览某个主题而不想永久修改配置文件，可以在运行 <code>hugo server</code> 时加上 <code>--theme</code> 参数：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server -D --theme ananke
-</span></span></code></pre></div><h3 id="更新主题">更新主题</h3>
-<p>要更新您已安装的主题，请在您的项目根目录下运行以下命令：</p>
+</span></span></code></pre></div><h3 id="更新主题并提交">更新主题并提交</h3>
+<p>要更新您已安装的主题（以主题LoveIt为例），在项目根目录下运行以下命令：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule update --remote themes/LoveIt
+</span></span></code></pre></div><p>回到根目录，提交更新：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add themes/LoveIt
+</span></span></code></pre></div><p>提交更改信息</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;更新主题子模块到最新版本&#34;</span>
+</span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><h2 id="求助与资源">求助与资源</h2>
 <ul>
 <li>Hugo 官方论坛：https://discourse.gohugo.io/，社区活跃，适合提问和查找问题答案。</li>
@@ -352,6 +357,14 @@
 		<h2 class="font-bold text-xl mb-8">Recent Post</h2>
 
 		<article class="relative group flex flex-row">
+	<a class="insert-link" href="http://localhost:1313/posts/2025/host-hugo-site-on-cloudflare/"></a>
+	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/cloudflare-cover-001_hu_1f452441b31b916e.jpg" alt="使用Cloudflare托管Hugo网站的完整指南" width="250" height="141">
+
+	</figure>
+	<div class="basis-2/3 self-center ml-4">
+		<h3 class="font-bold group-hover:underline decoration-auto">使用Cloudflare托管Hugo网站的完整指南</h3>
+	</div>
+</article><article class="relative group flex flex-row">
 	<a class="insert-link" href="http://localhost:1313/posts/2025/git-and-github-introduction-guide/"></a>
 	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/github-cover-001_hu_c41dad65c60e2973.jpg" alt="Git与GitHub技术小白入门指南" width="250" height="141">
 
@@ -382,14 +395,6 @@
 	</figure>
 	<div class="basis-2/3 self-center ml-4">
 		<h3 class="font-bold group-hover:underline decoration-auto">Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</h3>
-	</div>
-</article><article class="relative group flex flex-row">
-	<a class="insert-link" href="http://localhost:1313/posts/2023/galactic-marvels/"></a>
-	<figure class="basis-1/3 aspect-square overflow-hidden rounded-2xl bg-zinc-100"><img class="object-cover h-full w-full group-hover:scale-105 transition duration-500 cursor-pointer" src="http://localhost:1313/images/nasa-rTZW4f02zY8-unsplash_hu_852f34c56a8ae542.jpg" alt="Galactic Marvels: The Most Spectacular Nebulas in the Cosmos" width="250" height="141">
-
-	</figure>
-	<div class="basis-2/3 self-center ml-4">
-		<h3 class="font-bold group-hover:underline decoration-auto">Galactic Marvels: The Most Spectacular Nebulas in the Cosmos</h3>
 	</div>
 </article>
 		
