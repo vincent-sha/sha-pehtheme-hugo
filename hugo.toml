@@ -11,7 +11,7 @@ googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 	description = '专注于分享人工智能、个人创业经验、技术教程和潮品评测。探索AI应用、创业机遇和科技趋势的博客网站。'
 	mainSections = 'posts'
 
-[author]
+[params.author]
 	name = '文森Vincent'
 	bio = '专注于AI应用、个人创业、技术教程和潮品分享的博主。分享实用知识和创新见解。'
 	avatar = 'images/nasa-astronaut-unsplash.jpg'

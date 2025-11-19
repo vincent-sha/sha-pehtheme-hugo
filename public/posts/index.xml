@@ -51,7 +51,7 @@
       <description>&lt;h1 id=&#34;git与github入门指南&#34;&gt;Git与GitHub入门指南&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.githubassets.com/assets/git-guides-ba03f3804dde.png&#34; alt=&#34;Git远程示意图&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Git是一款分布式版本控制软件，用于记录代码的历史变更，支持多分支开发和远程协作。本文将带你从零开始了解Git的基本概念、优势、常用命令及工作流程，并介绍GitHub平台如何助力团队协作。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;什么是git&#34;&gt;什么是Git？&lt;/h2&gt;&#xA;&lt;p&gt;Git是一种分布式版本控制系统，意味着每个开发者本地都有完整的仓库副本，包括所有提交、分支和文件。与集中式版本控制不同，Git允许离线操作并提供更强的灵活性。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;分支轻量且易创建，支持大量分支并行开发&lt;/li&gt;&#xA;&lt;li&gt;通过SHA哈希存储变更，适合文本文件版本管理，不适合大二进制文件&lt;/li&gt;&#xA;&lt;li&gt;支持本地和远程仓库连接，方便推送（push）和拉取（pull）代码&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;git的编写语言&#34;&gt;Git的编写语言&lt;/h2&gt;&#xA;&lt;p&gt;Git核心组件由C语言、Shell脚本、Perl和Tcl编写，源代码托管在GitHub的&lt;a href=&#34;https://github.com/git/git&#34;&gt;git/git仓库&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么使用git&#34;&gt;为什么使用Git？&lt;/h2&gt;&#xA;&lt;p&gt;使用版本控制可以有效防止代码丢失，Git具有以下显著优势：&lt;/p&gt;&#xA;&lt;h3 id=&#34;速度快&#34;&gt;速度快&lt;/h3&gt;&#xA;&lt;p&gt;Git通过SHA压缩技术，使代码提交和检索速度极快。&lt;/p&gt;&#xA;&lt;h3 id=&#34;处理合并冲突能力强&#34;&gt;处理合并冲突能力强&lt;/h3&gt;&#xA;&lt;p&gt;允许多人同时编辑同一文件，Git能智能处理冲突，保障团队协作顺畅。&lt;/p&gt;&#xA;&lt;h3 id=&#34;分支成本低&#34;&gt;分支成本低&lt;/h3&gt;&#xA;&lt;p&gt;分支创建和管理成本低，开发者可以在分支中安全开发，及时推送并获得反馈。&lt;/p&gt;&#xA;&lt;h3 id=&#34;易于回滚&#34;&gt;易于回滚&lt;/h3&gt;&#xA;&lt;p&gt;提交不可更改，只能新增替代提交，支持轻松回退到历史版本，降低开发风险。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hugo静态网站快速入门指南</title>
+      <title>Hugo静态网站快速入门</title>
       <link>http://localhost:1313/posts/2025/hugo-quick-start-guide/</link>
       <pubDate>Fri, 14 Nov 2025 22:11:36 +0700</pubDate>
       <guid>http://localhost:1313/posts/2025/hugo-quick-start-guide/</guid>
