@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Copilot on 文森的科技博客</title>
+    <link>http://localhost:1313/tags/copilot/</link>
+    <description>Recent content in Copilot on 文森的科技博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copilot代码评审功能简介</title>
+      <link>http://localhost:1313/posts/2025/copilot-code-review-instructions/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/copilot-code-review-instructions/</guid>
+      <description>&lt;h1 id=&#34;copilot代码评审功能掌握指令文件编写技巧&#34;&gt;Copilot代码评审功能：掌握指令文件编写技巧&lt;/h1&gt;&#xA;&lt;p&gt;GitHub Copilot 代码评审（Copilot Code Review，简称 CCR）是 GitHub Copilot 代码评审（Copilot Code Review，简称 CCR）是 GitHub 于 2024 年底推出的 AI 驱动代码审查工具，旨在帮助开发者自动化处理代码审查的重复性工作，提高开发效率。该功能已于 2025 年 4 月正式通用可用（Generally Available），并在 2025 年 10 月和 11 月持续推出公共预览更新，使其更智能、更集成化。作为 Copilot 生态的一部分，它适用于所有付费 Copilot 订阅用户（包括 Individual、Business 和 Enterprise 计划），并支持 GitHub.com、Visual Studio Code (VS Code) 等多编辑器环境。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

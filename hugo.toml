@@ -5,7 +5,6 @@ theme = 'pehtheme-hugo'
 
 summaryLength = '20' # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
-disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
@@ -44,20 +43,23 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 		weight = 30
 
 [module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [module.mounts] # Directing the static folder to assets.
-  	source = 'assets'
-  	target = 'static'
+	[module.hugoVersion]
+		extended = false
+		min = "0.116.0"
+	[[module.mounts]] # Directing the static folder to assets.
+	 	source = 'assets'
+		target = 'static'
 
 [params.comments]
   provider = 'giscus'
-  repo = 'your-org/your-repo'
-  repoId = 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OA=='
-  category = 'General'
-  categoryId = 'DIC_kwDOA...'
-  mapping = 'pathname'
-  reactionsEnabled = '1'
-  theme = 'preferred_color_scheme'
-  lang = 'zh-CN'
+	repo = 'vincent-sha/sha-pehtheme-hugo'
+	repoId = 'R_kgDOQUpLdQ'
+	category = 'Announcements'
+	categoryId = 'DIC_kwDOQUpLdc4Cx9E0'
+	mapping = 'pathname'
+	strict = '0'
+	reactionsEnabled = '1'
+	emitMetadata = '0'
+	inputPosition = 'bottom'
+	theme = 'preferred_color_scheme'
+	lang = 'zh-CN'

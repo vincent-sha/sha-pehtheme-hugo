@@ -6,8 +6,15 @@
     <description>Recent content in Cloudflare on 文森的科技博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare发生大规模故障导致宕机</title>
+      <link>http://localhost:1313/posts/2025/cloudflare-outage-not-cyber-attack/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/cloudflare-outage-not-cyber-attack/</guid>
+      <description>&lt;h1 id=&#34;cloudflare故障非因网络攻击引发&#34;&gt;Cloudflare故障非因网络攻击引发&lt;/h1&gt;&#xA;&lt;p&gt;2025年11月18日，全球知名互联网基础设施服务商Cloudflare发生了大规模故障，导致众多依赖其服务的网站短时间内无法访问。Cloudflare首席执行官Matthew Prince在官方博客中澄清，此次故障并非由DDoS攻击或任何恶意网络活动引发。&lt;/p&gt;&#xA;&lt;h2 id=&#34;事故经过与原因分析&#34;&gt;事故经过与原因分析&lt;/h2&gt;&#xA;&lt;p&gt;Cloudflare的Bot管理系统依赖一个机器学习模型，通过持续更新的“特征”配置文件评估访问请求是否由机器人发起。该系统帮助客户决定是否允许或阻止特定机器人访问其网站，甚至用于阻挡AI公司机器人爬取内容以训练大型语言模型（LLM）。&lt;/p&gt;&#xA;&lt;p&gt;此次故障源于数据库权限的变更导致生成特征配置文件的机制出现异常，文件大小发生变化，触发了核心代理系统返回HTTP 5xx错误码，这直接影响了依赖Bot模块的所有流量。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“问题并非直接或间接由网络攻击或恶意行为造成。”——Matthew Prince&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;影响及回应&#34;&gt;影响及回应&lt;/h2&gt;&#xA;&lt;p&gt;这是Cloudflare自2019年以来最严重的网络服务中断事件，影响了平台大部分核心流量。事后，Cloudflare团队迅速调整权限设置，修复了故障。Matthew Prince代表团队对由此给用户带来的不便表示歉意。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://s.yimg.com/ny/api/res/1.2/0B4_OlNglyyD.qbTExGGqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://s.yimg.com/os/creatr-images/2019-12/090c5b10-1d08-11ea-bceb-c14af933c4cc&#34;&gt;Cloudflare公司总部&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cloudflare公司总部（图片来源：Andrei Stanescu via Getty Images）&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;相关链接&#34;&gt;相关链接&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/18-november-2025-outage/&#34;&gt;Cloudflare官方博客：2025年11月18日故障说明&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.engadget.com/big-tech/cloudflare-hit-by-outage-causing-widespread-errors-124208302.html&#34;&gt;Engadget相关新闻报道&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>使用Cloudflare托管Hugo网站的完整指南</title>
       <link>http://localhost:1313/posts/2025/host-hugo-site-on-cloudflare/</link>

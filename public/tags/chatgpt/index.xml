@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chatgpt on 文森的科技博客</title>
+    <link>http://localhost:1313/tags/chatgpt/</link>
+    <description>Recent content in Chatgpt on 文森的科技博客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Gemini与ChatGPT推出定时任务功能</title>
+      <link>http://localhost:1313/posts/2025/google-gemini-chatgpt-scheduled-actions/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/google-gemini-chatgpt-scheduled-actions/</guid>
+      <description>&lt;h2 id=&#34;google-gemini与chatgpt的定时任务功能智能规划你的生活&#34;&gt;Google Gemini与ChatGPT的定时任务功能，智能规划你的生活&lt;/h2&gt;&#xA;&lt;p&gt;随着生成式人工智能技术的快速发展，Google Gemini和ChatGPT两大AI聊天机器人不断推出新功能，力争成为用户生活中的智能助手。最新的更新中，这两款AI都引入了“定时任务”功能，即用户可以设定AI在特定时间自动执行某项任务，实现生活的智能化安排。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;google-gemini中的定时任务&#34;&gt;Google Gemini中的定时任务&lt;/h3&gt;&#xA;&lt;p&gt;Google Gemini的定时任务功能目前需要订阅其AI服务，最低价格约为每月20美元（Google AI Pro）。该功能允许用户同时管理最多10个定时任务，适用于网页端以及Android和iOS移动端应用。&lt;/p&gt;&#xA;&lt;p&gt;创建定时任务时，只需用自然语言描述任务及执行时间。例如：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;“每周一中午12点生成一张猫咪玩毛线球的图片。”&lt;/li&gt;&#xA;&lt;li&gt;“每天晚上7点给我一条常识问答。”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;定时任务支持一次性执行（如下周五下午3点）或按日、周、月循环执行，但不支持更复杂的周期安排或随机提醒。&lt;/p&gt;&#xA;&lt;p&gt;AI会自动识别调度意图，并在界面中显示任务摘要，确认无误后即可生效。任务会在后台执行，即使用户未打开应用，也会通过推送通知和邮件提醒你任务已完成。&lt;/p&gt;&#xA;&lt;p&gt;管理定时任务的方法：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网页版&lt;/strong&gt;：点击左侧导航栏的“设置与帮助”，选择“定时任务”查看、编辑或暂停任务。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;移动端&lt;/strong&gt;：点击右上角的头像，进入“定时任务”界面进行管理。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.wired.com/photos/691754716e3bc403c237fbf6/master/w_1600%2Cc_limit/01-gemini.jpg&#34; alt=&#34;Google Gemini定时任务编辑界面&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

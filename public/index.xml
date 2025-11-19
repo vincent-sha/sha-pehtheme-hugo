@@ -6,8 +6,36 @@
     <description>Recent content on 文森的科技博客</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare发生大规模故障导致宕机</title>
+      <link>http://localhost:1313/posts/2025/cloudflare-outage-not-cyber-attack/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/cloudflare-outage-not-cyber-attack/</guid>
+      <description>&lt;h1 id=&#34;cloudflare故障非因网络攻击引发&#34;&gt;Cloudflare故障非因网络攻击引发&lt;/h1&gt;&#xA;&lt;p&gt;2025年11月18日，全球知名互联网基础设施服务商Cloudflare发生了大规模故障，导致众多依赖其服务的网站短时间内无法访问。Cloudflare首席执行官Matthew Prince在官方博客中澄清，此次故障并非由DDoS攻击或任何恶意网络活动引发。&lt;/p&gt;&#xA;&lt;h2 id=&#34;事故经过与原因分析&#34;&gt;事故经过与原因分析&lt;/h2&gt;&#xA;&lt;p&gt;Cloudflare的Bot管理系统依赖一个机器学习模型，通过持续更新的“特征”配置文件评估访问请求是否由机器人发起。该系统帮助客户决定是否允许或阻止特定机器人访问其网站，甚至用于阻挡AI公司机器人爬取内容以训练大型语言模型（LLM）。&lt;/p&gt;&#xA;&lt;p&gt;此次故障源于数据库权限的变更导致生成特征配置文件的机制出现异常，文件大小发生变化，触发了核心代理系统返回HTTP 5xx错误码，这直接影响了依赖Bot模块的所有流量。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“问题并非直接或间接由网络攻击或恶意行为造成。”——Matthew Prince&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;影响及回应&#34;&gt;影响及回应&lt;/h2&gt;&#xA;&lt;p&gt;这是Cloudflare自2019年以来最严重的网络服务中断事件，影响了平台大部分核心流量。事后，Cloudflare团队迅速调整权限设置，修复了故障。Matthew Prince代表团队对由此给用户带来的不便表示歉意。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://s.yimg.com/ny/api/res/1.2/0B4_OlNglyyD.qbTExGGqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://s.yimg.com/os/creatr-images/2019-12/090c5b10-1d08-11ea-bceb-c14af933c4cc&#34;&gt;Cloudflare公司总部&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cloudflare公司总部（图片来源：Andrei Stanescu via Getty Images）&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;相关链接&#34;&gt;相关链接&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/18-november-2025-outage/&#34;&gt;Cloudflare官方博客：2025年11月18日故障说明&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.engadget.com/big-tech/cloudflare-hit-by-outage-causing-widespread-errors-124208302.html&#34;&gt;Engadget相关新闻报道&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Copilot代码评审功能简介</title>
+      <link>http://localhost:1313/posts/2025/copilot-code-review-instructions/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/copilot-code-review-instructions/</guid>
+      <description>&lt;h1 id=&#34;copilot代码评审功能掌握指令文件编写技巧&#34;&gt;Copilot代码评审功能：掌握指令文件编写技巧&lt;/h1&gt;&#xA;&lt;p&gt;GitHub Copilot 代码评审（Copilot Code Review，简称 CCR）是 GitHub Copilot 代码评审（Copilot Code Review，简称 CCR）是 GitHub 于 2024 年底推出的 AI 驱动代码审查工具，旨在帮助开发者自动化处理代码审查的重复性工作，提高开发效率。该功能已于 2025 年 4 月正式通用可用（Generally Available），并在 2025 年 10 月和 11 月持续推出公共预览更新，使其更智能、更集成化。作为 Copilot 生态的一部分，它适用于所有付费 Copilot 订阅用户（包括 Individual、Business 和 Enterprise 计划），并支持 GitHub.com、Visual Studio Code (VS Code) 等多编辑器环境。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo 评论系统及 giscus 详细安装教程</title>
+      <link>http://localhost:1313/posts/2025/hugo-comments-systems-comparison-giscus-setup/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/hugo-comments-systems-comparison-giscus-setup/</guid>
+      <description>&lt;h2 id=&#34;hugo-主流支持的评论系统横向比较&#34;&gt;Hugo 主流支持的评论系统横向比较&lt;/h2&gt;&#xA;&lt;p&gt;作为静态站点生成器，Hugo 支持多种评论系统集成，通常通过 JavaScript 嵌入或 Hugo 短代码实现。下表总结了主流评论系统（基于流行度和 Hugo 兼容性），包括 Disqus、Utterances、giscus、Remark42 和 Staticman，比较维度涵盖免费度、隐私保护、易用性、集成方式、活跃度及优缺点。&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;评论系统&lt;/th&gt;&#xA;          &lt;th&gt;免费度&lt;/th&gt;&#xA;          &lt;th&gt;隐私保护&lt;/th&gt;&#xA;          &lt;th&gt;易用性&lt;/th&gt;&#xA;          &lt;th&gt;Hugo 集成方式&lt;/th&gt;&#xA;          &lt;th&gt;活跃度&lt;/th&gt;&#xA;          &lt;th&gt;主要优缺点&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Disqus&lt;/td&gt;&#xA;          &lt;td&gt;免费（基础版），付费高级功能&lt;/td&gt;&#xA;          &lt;td&gt;中等（第三方服务器，广告追踪）&lt;/td&gt;&#xA;          &lt;td&gt;高（简单 JS 嵌入）&lt;/td&gt;&#xA;          &lt;td&gt;JS 嵌入或短代码&lt;/td&gt;&#xA;          &lt;td&gt;高&lt;/td&gt;&#xA;          &lt;td&gt;优点：用户基数大，功能丰富（如通知）；缺点：隐私差，加载慢，广告多。&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Utterances&lt;/td&gt;&#xA;          &lt;td&gt;完全免费&lt;/td&gt;&#xA;          &lt;td&gt;高（GitHub 托管，无追踪）&lt;/td&gt;&#xA;          &lt;td&gt;中等（需 GitHub repo）&lt;/td&gt;&#xA;          &lt;td&gt;JS 嵌入或短代码&lt;/td&gt;&#xA;          &lt;td&gt;高&lt;/td&gt;&#xA;          &lt;td&gt;优点：开源，轻量，版本控制；缺点：需 GitHub 账号，回复依赖 GitHub。&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;giscus&lt;/td&gt;&#xA;          &lt;td&gt;完全免费&lt;/td&gt;&#xA;          &lt;td&gt;高（GitHub Discussions 托管）&lt;/td&gt;&#xA;          &lt;td&gt;高（配置简单）&lt;/td&gt;&#xA;          &lt;td&gt;JS 嵌入或短代码&lt;/td&gt;&#xA;          &lt;td&gt;高（活跃维护）&lt;/td&gt;&#xA;          &lt;td&gt;优点：实时通知，主题自定义，支持多语言；缺点：依赖 GitHub，搜索功能有限。&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Remark42&lt;/td&gt;&#xA;          &lt;td&gt;完全免费（自托管）&lt;/td&gt;&#xA;          &lt;td&gt;高（自托管，无第三方）&lt;/td&gt;&#xA;          &lt;td&gt;低（需服务器）&lt;/td&gt;&#xA;          &lt;td&gt;JS 嵌入，自托管后端&lt;/td&gt;&#xA;          &lt;td&gt;中等&lt;/td&gt;&#xA;          &lt;td&gt;优点：完全控制数据，轻量；缺点：部署复杂，需维护服务器。&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Staticman&lt;/td&gt;&#xA;          &lt;td&gt;完全免费（自托管）&lt;/td&gt;&#xA;          &lt;td&gt;高（静态提交，无 JS）&lt;/td&gt;&#xA;          &lt;td&gt;中等（Webhook 配置）&lt;/td&gt;&#xA;          &lt;td&gt;短代码 + Webhook&lt;/td&gt;&#xA;          &lt;td&gt;中等&lt;/td&gt;&#xA;          &lt;td&gt;优点：无 JS，SEO 友好；缺点：非实时，需后端处理表单。&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;数据来源：基于 Hugo 官方文档和社区推荐（2025 年最新）。选择评论系统时，建议优先考虑隐私需求和站点规模。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Gemini与ChatGPT推出定时任务功能</title>
+      <link>http://localhost:1313/posts/2025/google-gemini-chatgpt-scheduled-actions/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025/google-gemini-chatgpt-scheduled-actions/</guid>
+      <description>&lt;h2 id=&#34;google-gemini与chatgpt的定时任务功能智能规划你的生活&#34;&gt;Google Gemini与ChatGPT的定时任务功能，智能规划你的生活&lt;/h2&gt;&#xA;&lt;p&gt;随着生成式人工智能技术的快速发展，Google Gemini和ChatGPT两大AI聊天机器人不断推出新功能，力争成为用户生活中的智能助手。最新的更新中，这两款AI都引入了“定时任务”功能，即用户可以设定AI在特定时间自动执行某项任务，实现生活的智能化安排。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;google-gemini中的定时任务&#34;&gt;Google Gemini中的定时任务&lt;/h3&gt;&#xA;&lt;p&gt;Google Gemini的定时任务功能目前需要订阅其AI服务，最低价格约为每月20美元（Google AI Pro）。该功能允许用户同时管理最多10个定时任务，适用于网页端以及Android和iOS移动端应用。&lt;/p&gt;&#xA;&lt;p&gt;创建定时任务时，只需用自然语言描述任务及执行时间。例如：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;“每周一中午12点生成一张猫咪玩毛线球的图片。”&lt;/li&gt;&#xA;&lt;li&gt;“每天晚上7点给我一条常识问答。”&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;定时任务支持一次性执行（如下周五下午3点）或按日、周、月循环执行，但不支持更复杂的周期安排或随机提醒。&lt;/p&gt;&#xA;&lt;p&gt;AI会自动识别调度意图，并在界面中显示任务摘要，确认无误后即可生效。任务会在后台执行，即使用户未打开应用，也会通过推送通知和邮件提醒你任务已完成。&lt;/p&gt;&#xA;&lt;p&gt;管理定时任务的方法：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网页版&lt;/strong&gt;：点击左侧导航栏的“设置与帮助”，选择“定时任务”查看、编辑或暂停任务。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;移动端&lt;/strong&gt;：点击右上角的头像，进入“定时任务”界面进行管理。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://media.wired.com/photos/691754716e3bc403c237fbf6/master/w_1600%2Cc_limit/01-gemini.jpg&#34; alt=&#34;Google Gemini定时任务编辑界面&#34;&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>使用Cloudflare托管Hugo网站的完整指南</title>
       <link>http://localhost:1313/posts/2025/host-hugo-site-on-cloudflare/</link>
@@ -42,62 +70,6 @@
       <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Pehtheme Hugo&lt;/strong&gt; is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unveiling the Secrets of Black Holes: A Journey into the Heart of Darkness</title>
-      <link>http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/</link>
-      <pubDate>Wed, 04 Oct 2023 22:11:36 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/unveiling-the-secrets-of-black-holes/</guid>
-      <description>&lt;p&gt;In the vast expanse of the cosmos, &lt;code&gt;there&lt;/code&gt; are few objects as mysterious and awe-inspiring as black holes. These enigmatic cosmic phenomena, once thought of as nothing more than theoretical curiosities, have now become a central focus of astronomical research. In this article, we embark on a journey deep into the heart of darkness, unraveling some of the secrets that lie within.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Galactic Marvels: The Most Spectacular Nebulas in the Cosmos</title>
-      <link>http://localhost:1313/posts/2023/galactic-marvels/</link>
-      <pubDate>Sun, 24 Sep 2023 11:15:17 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/galactic-marvels/</guid>
-      <description>&lt;p&gt;In the vast expanse of the cosmos, one cannot help but be captivated by the breathtaking beauty of nebulae. These celestial marvels are often hidden in the depths of space, waiting to be discovered and admired by astronomers and space enthusiasts alike. In this article, we will embark on a cosmic journey to explore some of the most spectacular nebulas in the cosmos, shedding light on their unique features and the mysteries they hold.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Stellar Spectacles: The Wonders of Supernova Explosions</title>
-      <link>http://localhost:1313/posts/2023/stellar-spectacles/</link>
-      <pubDate>Sat, 23 Sep 2023 22:45:37 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/stellar-spectacles/</guid>
-      <description>&lt;p&gt;In the vast expanse of the cosmos, few events match the spectacle and scientific importance of supernova explosions. These awe-inspiring cosmic fireworks mark the dramatic end of a star&amp;rsquo;s life and offer profound insights into the universe&amp;rsquo;s workings. In this article, we embark on a journey to explore the wonders of supernova explosions, shedding light on their significance and the mysteries they unveil.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Space Exploration&#39;s Next Frontier: The Race to Reach Mars</title>
-      <link>http://localhost:1313/posts/2023/space-explorations-next-frontier/</link>
-      <pubDate>Tue, 15 Aug 2023 13:45:49 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/space-explorations-next-frontier/</guid>
-      <description>&lt;p&gt;The dream of reaching Mars has captured the imagination of scientists, engineers, and space enthusiasts for decades. In recent years, this dream has transformed into a tangible goal, with various space agencies and private companies embarking on missions to make it a reality. In this article, we delve into space exploration&amp;rsquo;s next frontier—the race to reach Mars.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Great Beyond: Exploring the Expanding Universe</title>
-      <link>http://localhost:1313/posts/2023/the-great-beyond/</link>
-      <pubDate>Sat, 12 Aug 2023 14:15:05 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2023/the-great-beyond/</guid>
-      <description>&lt;p&gt;The universe, with its vastness and complexity, has intrigued humanity for centuries. In recent decades, our understanding of the cosmos has deepened, thanks to groundbreaking discoveries about the expansion of the universe. In this article, we embark on a journey to explore the great beyond, delving into the universe&amp;rsquo;s expansion and the mysteries it unveils.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cosmic Time Travel: Peering into the Universe&#39;s Past with Telescopes</title>
-      <link>http://localhost:1313/posts/2022/cosmic-time-travel/</link>
-      <pubDate>Mon, 07 Aug 2023 09:30:32 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2022/cosmic-time-travel/</guid>
-      <description>&lt;p&gt;In the realm of astronomy, telescopes are our time machines, allowing us to peer into the distant past of the universe. These remarkable instruments have the power to capture light that has traveled across the cosmos for millions or even billions of years. In this article, we embark on a journey of cosmic time travel, exploring how telescopes enable us to witness the universe&amp;rsquo;s history.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Hubble Space Telescope: 30 Years of Stunning Discoveries</title>
-      <link>http://localhost:1313/posts/2022/the-hubble-space-telescope/</link>
-      <pubDate>Sun, 30 Jul 2023 09:30:32 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2022/the-hubble-space-telescope/</guid>
-      <description>&lt;p&gt;For three remarkable decades, the Hubble Space Telescope has been our eye on the universe, delivering breathtaking images and transformative scientific insights. Since its launch in 1990, the Hubble has reshaped our understanding of the cosmos and provided us with unparalleled views of distant galaxies, nebulae, and other celestial wonders. In this article, we celebrate the Hubble Space Telescope&amp;rsquo;s 30 years of stunning discoveries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Exoplanets: Hunting for Earth&#39;s Cosmic Cousins</title>
-      <link>http://localhost:1313/posts/2022/exoplanets-hunting/</link>
-      <pubDate>Thu, 27 Jul 2023 13:03:07 +0700</pubDate>
-      <guid>http://localhost:1313/posts/2022/exoplanets-hunting/</guid>
-      <description>&lt;p&gt;In the vast tapestry of the cosmos, one of the most intriguing quests of modern astronomy is the search for exoplanets, distant celestial bodies that might bear a resemblance to our own Earth. This endeavor is driven by the tantalizing question: Could there be other habitable worlds out there? In this article, we embark on a journey to explore the captivating hunt for Earth&amp;rsquo;s cosmic cousins.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
