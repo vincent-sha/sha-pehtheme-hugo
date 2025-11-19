@@ -50,3 +50,14 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
   [module.mounts] # Directing the static folder to assets.
   	source = 'assets'
   	target = 'static'
+
+[params.comments]
+  provider = 'giscus'
+  repo = 'your-org/your-repo'
+  repoId = 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OA=='
+  category = 'General'
+  categoryId = 'DIC_kwDOA...'
+  mapping = 'pathname'
+  reactionsEnabled = '1'
+  theme = 'preferred_color_scheme'
+  lang = 'zh-CN'
