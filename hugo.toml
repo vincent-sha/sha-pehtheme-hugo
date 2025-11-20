@@ -13,8 +13,8 @@ googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 
 [params.author]
 	name = '文森Vincent'
-	bio = '专注于AI应用、个人创业、技术教程和潮品分享的博主。分享实用知识和创新见解。'
-	avatar = 'images/nasa-astronaut-unsplash.jpg'
+	bio = '专注于AI应用、个人创业、技术教程和潮品分享的博主。'
+	avatar = 'images/site-logo.png'
 	twitter = 'https://twitter.com/insertapps'
 
 [pagination]

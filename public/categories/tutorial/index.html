@@ -16,7 +16,7 @@
 <link rel="icon" type="image/png" sizes="64x64" href="http://localhost:1313/favicon-64.png"> 
 
 </head>
-<body>
+<body class="bg-white text-zinc-900 transition-colors duration-300">
   <header class="py-6 border-b"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col">
 	<div class="flex items-center">
 		<div class="flex items-center">
@@ -36,6 +36,7 @@
 			</div>
 		</div>
 		<div class="flex items-center ml-auto">
+			<button id="theme-toggle" class="mr-3 flex items-center justify-center rounded-full p-2 bg-zinc-100 hover:bg-zinc-200" aria-label="Toggle theme">🌙</button>
 			<button class="flex items-center rounded-full p-3 bg-zinc-100 hover:bg-zinc-200 toggle-button" data-target="search-bar">
 				<svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
 					<path id="path1" class="transition-all ease-linear" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
@@ -91,7 +92,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">
 
-      <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+      <article class="relative group card-surface hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="http://localhost:1313/posts/2025/hugo-comments-systems-comparison-giscus-setup/"></a>
 
@@ -108,7 +109,7 @@
 		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">本文针对 Hugo 支持的主流评论系统进行横向比较和分析。重点介绍开源的 giscus 评论系统，以及针对 Hugo 站点的详细安装步骤、配置方法和常见问题排查，帮助用户快速搭建现代化的评论功能。</p>
 
 	</div>
-</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+</article><article class="relative group card-surface hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="http://localhost:1313/posts/2025/host-hugo-site-on-cloudflare/"></a>
 
@@ -125,7 +126,7 @@
 		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">本文详细介绍了如何利用Cloudflare平台托管Hugo生成的静态网站，涵盖所需的前提条件、配置文件编写、自动构建脚本编写以及Cloudflare与GitHub的连接步骤，实现网站的持续部署和自动更新。</p>
 
 	</div>
-</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+</article><article class="relative group card-surface hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="http://localhost:1313/posts/2025/git-and-github-introduction-guide/"></a>
 
@@ -142,7 +143,7 @@
 		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">一目了然，掌握Git的基本概念及其工作流程，并阐述了GitHub作为协作平台的作用，帮助技术小白快速掌握从安装、分支管理到协作开发的完整使用方法。</p>
 
 	</div>
-</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+</article><article class="relative group card-surface hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="http://localhost:1313/posts/2025/hugo-quick-start-guide/"></a>
 
@@ -159,7 +160,7 @@
 		<p class="text-normal leading-normal text-zinc-500 line-clamp-2">本文详细介绍了如何快速搭建一个 Hugo 网站，包括环境准备、创建站点、添加内容、配置网站和发布站点的完整流程。适合有一定命令行基础的用户快速上手 Hugo 静态网站生成器。</p>
 
 	</div>
-</article><article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+</article><article class="relative group card-surface hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="http://localhost:1313/posts/2025/swift-stack/"></a>
 
@@ -330,5 +331,37 @@
 </div>
 </footer>
       <script src="/js/insertoggle.js"></script>
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const toggleId = 'theme-toggle';
+      const setTheme = value => {
+        if (value === 'dark') {
+          root.classList.add('dark');
+        } else {
+          root.classList.remove('dark');
+        }
+        localStorage.setItem('theme', value);
+        const btn = document.getElementById(toggleId);
+        if (btn) {
+          btn.textContent = value === 'dark' ? '🌙' : '☀️';
+          btn.setAttribute('aria-label', `Switch to ${value === 'dark' ? 'light' : 'dark'} mode`);
+        }
+      };
+
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setTheme(stored || (prefersDark ? 'dark' : 'light'));
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.getElementById(toggleId);
+        if (!btn) return;
+        btn.addEventListener('click', () => {
+          const next = root.classList.contains('dark') ? 'light' : 'dark';
+          setTheme(next);
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
