@@ -1,4 +1,4 @@
-baseURL = 'https://vincent-blog.top/'
+baseURL = 'sha-pehtheme-hugo.vincentshajing.workers.dev'
 languageCode = 'zh-cn'
 title = '文森的科技博客'
 theme = 'pehtheme-hugo'

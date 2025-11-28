@@ -2133,14 +2133,4 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
-}:root {
-  color-scheme: light;
-}
-
-.dark {
-  color-scheme: dark;
-}
-
-body {
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
