@@ -1,3 +1,4 @@
 [submodule "themes/pehtheme-hugo"]
 	path = themes/pehtheme-hugo
 	url = https://github.com/vincent-sha/pehtheme-hugo.git
+    branch = feature/comments-single
